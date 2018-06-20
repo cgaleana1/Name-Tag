@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body {background-color: #ccc;}
+
+.name-tag {
+  background: #FF4500;
+  border-radius: 25px;
+  width:450px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 5px 20px black;
+   
+  }
+
+  .name-tag-title {
+  color: white;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  padding: 10px 0;
+}
+
+.name-tag h1, 
+.name-tag h2 {
+  margin:0;
+}
+
+.name-tag-name {
+  padding:48px;
+  background:white;
+  margin:5px;
+  text-align:center;
+  font-size:48px;
+  font-family: 'Pacifico', cursive;
+  font-weight:bold;
+  text-transform: uppercase;
+  
+  
+}
+
+.name-tag-footer {
+  padding:24px;
+}
+
+form {
+  text-align:center;
+  padding-top:50px;
+  
+}
+
+input#name {
+  border:1px #CCC solid;
+  border-radius:25px;
+  text-align:center;
+  font-size:24px;
+  padding:5px 0;
+   box-shadow: inset 0 0 6px;
+   text-decoration: underline;
+  font-family: 'Pacifico', cursive;
+  font-weight:bold;
+
+ 
+ 
+}
+
